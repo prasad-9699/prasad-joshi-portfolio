@@ -40,6 +40,19 @@ export interface SkillCategory {
   }[];
 }
 
+export interface AcademicStage {
+  id: string;
+  level: string;
+  institution: string;
+  stream?: string;
+  period?: string;
+  score: string;
+  scoreType: string;
+  achievement?: string;
+  highlights?: string[];
+  location?: string;
+}
+
 export interface Education {
   institution: string;
   degree: string;
@@ -47,6 +60,7 @@ export interface Education {
   period: string;
   cgpa: string;
   notes?: string[];
+  academicStages: AcademicStage[];
 }
 
 export interface Leadership {

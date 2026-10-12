@@ -85,7 +85,7 @@ export const HeroSection: React.FC = () => {
 
               <a
                 href={socialLinks.resumePdf}
-                download="Prasad_Joshi_Resume.pdf"
+                download="PrasadResume.pdf"
                 className="px-6 py-3.5 rounded-xl bg-slate-900/80 hover:bg-slate-800/80 text-slate-100 font-medium text-sm border border-white/10 hover:border-cyan-400/30 transition-all duration-300 flex items-center gap-2 group shadow-sm hover:shadow-[0_0_20px_rgba(56,189,248,0.15)]"
               >
                 <Download className="w-4 h-4 text-cyan-400 group-hover:scale-110 transition-transform" />

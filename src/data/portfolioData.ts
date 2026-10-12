@@ -23,7 +23,7 @@ export const socialLinks: SocialLinks = {
   github: "https://github.com/prasad-9699",
   linkedin: "https://www.linkedin.com/in/prasad-joshi-634784242/",
   leetcode: "https://leetcode.com/u/PrasadsJoshi_9699/",
-  resumePdf: "/Prasad_Resume.pdf"
+  resumePdf: "/PrasadResume.pdf"
 };
 
 /**
@@ -228,6 +228,46 @@ export const educationData: Education = {
     "Minor Specialization in Data Science and Machine Learning",
     "MHT-CET: 99.32 Percentile",
     "Core Coursework: Database Management Systems, Object-Oriented Programming, Operating Systems, Data Structures & Algorithms"
+  ],
+  academicStages: [
+    {
+      id: "vjti-btech",
+      level: "Undergraduate (B.Tech)",
+      institution: "Veermata Jijabai Technological Institute (VJTI)",
+      stream: "Electronics & Telecommunication (Minor in DS & ML)",
+      period: "2023 – 2027",
+      score: "8.19 / 10",
+      scoreType: "CGPA",
+      location: "Mumbai, Maharashtra",
+      highlights: [
+        "Minor Specialization in Data Science & Machine Learning",
+        "MHT-CET Score: 99.32 Percentile"
+      ]
+    },
+    {
+      id: "ryk-12th",
+      level: "12th Standard (HSC)",
+      institution: "R. Y. K. Science College",
+      stream: "Science",
+      score: "85%",
+      scoreType: "Percentage",
+      location: "Nashik, Maharashtra",
+      highlights: [
+        "Rigorous Science curriculum with advanced Mathematics and Physics"
+      ]
+    },
+    {
+      id: "maratha-10th",
+      level: "10th Standard (SSC)",
+      institution: "Maratha High School",
+      score: "97%",
+      scoreType: "Percentage",
+      achievement: "Secured 3rd rank in school",
+      location: "Nashik, Maharashtra",
+      highlights: [
+        "Secured 3rd rank in school with exceptional academic distinction"
+      ]
+    }
   ]
 };
 

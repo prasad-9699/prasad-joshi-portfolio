@@ -97,7 +97,7 @@ export const Navbar: React.FC = () => {
           <div className="hidden md:flex items-center gap-3">
             <a
               href={socialLinks.resumePdf}
-              download="Prasad_Joshi_Resume.pdf"
+              download="PrasadResume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 text-xs font-medium px-3.5 py-2 rounded-xl bg-white/[0.05] hover:bg-white/[0.1] text-slate-200 hover:text-cyan-300 border border-white/10 hover:border-cyan-500/30 transition-all duration-200 shadow-sm group"
@@ -143,7 +143,7 @@ export const Navbar: React.FC = () => {
             <div className="pt-4 mt-2 border-t border-white/10 flex flex-col gap-2">
               <a
                 href={socialLinks.resumePdf}
-                download="Prasad_Joshi_Resume.pdf"
+                download="PrasadResume.pdf"
                 className="flex items-center justify-center gap-2 py-3 rounded-xl bg-white/[0.05] border border-white/10 text-sm font-medium text-slate-200 hover:text-cyan-300"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
